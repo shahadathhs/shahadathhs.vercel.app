@@ -1,192 +1,105 @@
 <div align="center">
 
-![Shahadath Banner](https://github.com/shahadathhs/shahadathhs.vercel.app/blob/main/public/github-banner.png)
-
-# Shahadath Hossen Sajib
-
-### Full Stack Engineer · Dhaka, Bangladesh
-
-![Typing SVG](https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&size=14&duration=4000&pause=1000&color=000000&center=true&vCenter=true&width=600&lines=Full+Stack+Engineer;Backend-Focused+Builder;Node.js+%26+NestJS+Specialist;TypeScript+%26+Python+Developer;AI-Integrated+Systems+Builder)
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shahadathhs/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shahadathhs)
-[![Twitter (X)](<https://img.shields.io/badge/Twitter%20(X)-000000?style=for-the-badge&logo=x&logoColor=white>)](https://x.com/shahadathhs)
-[![Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@shahadathhs)
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/shahadathhs/)
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://shahadathhs.vercel.app)
-[![Resume](https://img.shields.io/badge/Resume-2563EB?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1dtZCEgZyof-qrUreeVpXDlOovosegpuf/view)
+![My Profile](https://github.com/shahadathhs/shahadathhs/blob/main/hero.png)
 
 </div>
 
 ---
 
-## 🧠 About Me
+## 👋 About Me
 
-I’m a full stack engineer with a backend focus. I build distributed systems and AI-powered services, and I ship the frontends on top of them, so I design APIs around what the UI actually needs: pagination, loading states, and error handling you can build on.
+**Hey there, I'm Shahadath Hossen Sajib (Sajib)** — Full Stack Engineer, backend-focused, who builds **scalable APIs, real-time systems, and AI-powered applications** with **TypeScript**, **React**, **Next.js**, **Node.js**, **NestJS**, and **Python**.
 
-If it has an endpoint, I wrote it, documented it, and probably got paged for it once.
+I design high-performance **RESTful APIs**, **real-time applications**, and **event-driven architectures**, and ship them end-to-end — from data modeling through production deployment. Most of my work sits at the intersection of **microservices**, **real-time features**, and **AI integration** (RAG, tool calling, document retrieval).
 
-I deploy what I build: Docker on AWS, CI/CD pipelines, Linux boxes behind Nginx or Caddy. I optimize for boring, observable systems that are easy to debug at 2am. Production is the deliverable.
-
-**2+** · Years Experience • **Microservices** · Focus • **RAG & Agents** · AI/LLM
+- 🗄️ **Data layers:** PostgreSQL, MongoDB, Redis — modeled with Prisma, Drizzle, and Mongoose
+- ⚡ **Real-time & queues:** Socket.IO, WebRTC, BullMQ for live updates and background workloads
+- 🤖 **AI/LLM:** OpenAI API, Ollama, RAG pipelines, and vector search for intelligent features
+- 🐳 **DevOps:** Docker, GitHub Actions CI/CD, AWS (EC2 & S3), Nginx, and Caddy on Linux VPS
+- 🤝 Open to collaboration on full stack, backend-heavy, or AI-integrated work
 
 ---
 
-## 🛠️ Skills
+## 📫 Connect With Me
 
-### Languages
+- 📧 **Email:** shahadathhossensajib732@gmail.com
+- 📄 **Resume:** https://drive.google.com/file/d/1dtZCEgZyof-qrUreeVpXDlOovosegpuf/view
 
-_TypeScript-first for type-safe backends; Python for AI, automation, and FastAPI services._
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logoColor=white&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0yMC40NDcgMjAuNDUyaC0zLjU1NHYtNS41NjljMC0xLjMyOC0uMDI3LTMuMDM3LTEuODUyLTMuMDM3LTEuODUzIDAtMi4xMzYgMS40NDUtMi4xMzYgMi45Mzl2NS42NjdIOS4zNTFWOWgzLjQxNHYxLjU2MWguMDQ2Yy40NzctLjkgMS42MzctMS44NSAzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDY1IDAtMS4xMzguOTItMi4wNjMgMi4wNjMtMi4wNjMgMS4xNCAwIDIuMDY0LjkyNSAyLjA2NCAyLjA2MyAwIDEuMTM5LS45MjUgMi4wNjUtMi4wNjQgMi4wNjV6bTEuNzgyIDEzLjAxOUgzLjU1NVY5aDMuNTY0djExLjQ1MnpNMjIuMjI1IDBIMS43NzFDLjc5MiAwIDAgLjc3NCAwIDEuNzI5djIwLjU0MkMwIDIzLjIyNy43OTIgMjQgMS43NzEgMjRoMjAuNDUxQzIzLjIgMjQgMjQgMjMuMjI3IDI0IDIyLjI3MVYxLjcyOUMyNCAuNzc0IDIzLjIgMCAyMi4yMjUgMHoiLz48L3N2Zz4=)](https://linkedin.com/in/shahadathhs)
+[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@shahadathhs)
+[![LeetCode](https://img.shields.io/badge/LeetCode-000?style=for-the-badge&logo=leetcode&logoColor=yellow)](https://leetcode.com/u/shahadathhs/)
+[![Vercel](https://img.shields.io/badge/Vercel-000?style=for-the-badge&logo=vercel&logoColor=white)](https://shahadathhs.vercel.app)
+[![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)](https://shahadathhs.pages.dev)
 
-`TypeScript` `JavaScript (ES6+)` `Python`
+---
 
-### Frontend
+## 🛠️ Tech Stack
 
-_React and Next.js interfaces built against the APIs I design, from dashboards to full product sites._
-
-`React` `Next.js`
-
-### Backend
-
-_Node.js/NestJS for real-time and modular services; FastAPI for ML and async workloads._
-
-`Node.js` `NestJS` `FastAPI` `Express.js`
-
-### Data Layer
-
-_Polyglot persistence, relational, document, and in-memory stores chosen per workload, with typed access through Prisma and Drizzle._
-
-`PostgreSQL` `MongoDB` `Redis` `Prisma` `Drizzle` `Mongoose`
-
-### Cloud & DevOps
-
-_Containerized deployments on AWS, automated through CI/CD and reverse-proxied on Linux._
-
-`Docker` `AWS (EC2, S3)` `Nginx` `Caddy` `GitHub Actions`
-
-### Realtime
-
-_Live streaming (RTMP → HLS via mediamtx), signaling, and queue-driven background processing at product scale._
-
-`Socket.IO` `WebRTC` `BullMQ` `Redis Pub/Sub` `mediamtx`
-
-### AI & LLM
-
-_Production AI features, RAG pipelines, tool calling, and vector search over self-hosted or OpenAI models._
-
-`OpenAI API` `Ollama` `RAG` `Vector Search`
-
-### Security & Auth
-
-_Auth flows shipped to production, JWT, Google OAuth with JWKS verification, Redis-backed OTP, 2FA, and RBAC._
-
-`JWT` `OAuth 2.0` `2FA & OTP` `RBAC`
+| Category                  | Tools & Technologies                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| :------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Languages**             | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)                                                                                                                                                                                             |
+| **Frontend**              | ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)                                                                                                                                                                                                                                                                                                                        |
+| **Backend**               | ![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)                                                                                                     |
+| **Databases**             | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)                                                                                                                                                                                                         |
+| **ORM / ODM**             | ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white) ![Mongoose](https://img.shields.io/badge/Mongoose-880000?style=for-the-badge&logo=mongoose&logoColor=white) ![Drizzle](https://img.shields.io/badge/Drizzle-C5F74F?style=for-the-badge&logo=drizzle&logoColor=black)                                                                                                                                                                                                            |
+| **Messaging & Real-time** | ![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio&logoColor=white) ![WebRTC](https://img.shields.io/badge/WebRTC-333333?style=for-the-badge&logo=webrtc&logoColor=white) ![BullMQ](https://img.shields.io/badge/BullMQ-CD0000?style=for-the-badge&logo=redis&logoColor=white)                                                                                                                                                                                                           |
+| **AI & LLM**              | ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white) ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white) ![RAG](https://img.shields.io/badge/RAG-FF6F00?style=for-the-badge&logo=probot&logoColor=white) ![Vector Search](https://img.shields.io/badge/Vector%20Search-6366F1?style=for-the-badge&logo=pinecone&logoColor=white)                                                                                                   |
+| **Cloud & DevOps**        | ![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![Actions](https://img.shields.io/badge/Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white) ![Caddy](https://img.shields.io/badge/Caddy-00ADD8?style=for-the-badge&logo=caddy&logoColor=white) |
 
 ---
 
 ## 💼 Experience
 
-### Back End Developer · Digital Pylot
+**Backend Developer — Digital Pylot** _(Feb 2026 – Present)_ · Dhaka, Bangladesh · On-site
 
-_Feb 2026 - Present · Dhaka, Bangladesh · On-site_
+- Building a large-scale **CRM & dynamic CMS platform** on a microservices architecture across backend, AI, and deployment
+- Shipped a fully customizable CMS (themes, layouts, pages, dynamic content with no code changes) and a **custom RAG chatbot** with tool calling and document retrieval
+- Built role-based notifications and dynamic configuration that power complex business workflows
+- Run production deployments on **Linux VPS** with Nginx, SSL, and CI/CD across services
 
-- Shipped AI features on a large-scale CRM/CMS microservices platform, custom RAG chatbot, tool calling, document retrieval, and workflow automation, backend to deployment.
-- Built a fully customizable CMS, admins manage themes, layouts, pages, and dynamic content with zero code changes, cutting content-ops turnaround to minutes.
-- Developed REST APIs on PostgreSQL and MongoDB with dynamic configuration and role-based notifications driving complex business workflows.
-- Runs on Linux VPS: Nginx, SSL, CI/CD, deployed, monitored, and kept the microservices honest.
+**Backend Developer — Softvence Agency** _(Jul 2025 – Feb 2026)_ · Dhaka, Bangladesh · On-site
 
-### Back End Developer · Softvence Agency
+- Built an **Uber-style logistics platform** — live tracking, dynamic routing, multi-party coordination, and weather-aware routing
+- Engineered a **payment engine** for subscriptions, promo codes, and rule-based payouts, plus HR workflows with payroll automation
+- Delivered **AI automation** for candidate evaluation, interview generation, and analytics
+- Owned PostgreSQL schemas (Prisma/Drizzle) and **AWS EC2 + S3** infrastructure end-to-end
 
-_Jul 2025 - Feb 2026 · Dhaka, Bangladesh · On-site_
+**Web Developer — Monster Studio** _(Aug 2024 – Apr 2025)_ · Chattogram, Bangladesh · On-site
 
-- Engineered a platform-level payment engine, subscriptions, promo codes, and rule-based automated payouts moving real money, on time.
-- Built Uber-style real-time logistics tracking, dynamic multi-party routing that adapts to live weather.
-- Automated HR and payroll workflows, timezone-aware scheduling, activity streams, and location-aware map services.
-- Shipped AI automation, candidate evaluation, interview generation, and contextual analytics.
-- Owned PostgreSQL schemas (Prisma/Drizzle), Redis caching, and AWS EC2 + S3, with monitoring to prove it.
-
-### Web Developer · Monster Studio
-
-_Aug 2024 - Apr 2025 · Chattogram, Bangladesh · On-site_
-
-- Shipped features across a monorepo powering 20+ production websites, responsive, SEO-optimized, and fast.
-- Built an AI document assistant with retrieval-based, context-aware answers.
-- Created internal tools, custom CMS and creator utilities wired to external APIs like YouTube.
-- Led a frontend team through code reviews and task coordination, better reviews, faster delivery.
-- Hardened reliability with unit and performance tests across projects.
+- Contributed across a large monorepo powering **20+ production websites**
+- Built an **AI-powered document assistant** with retrieval-based, context-aware responses
+- Developed internal tools (custom CMS, creator utilities) with external API integrations
+- Led a **frontend team** through code reviews and strengthened reliability with unit tests
 
 ---
-
-## 🚀 Projects
-
-Pinned open-source work — [explore all on GitHub](https://github.com/shahadathhs?tab=repositories).
-
-### [systemix](https://github.com/shahadathhs/systemix)
-
-[Live Demo](https://systemix.vercel.app/)
-
-- A "standard library" for modern Node.js, 11 packages published to npm and GitHub Packages
-- Cryptographically secure generators: passwords with character guarantees, passphrases, and signed tokens (hex/base64) built on Node crypto
-- Typed env loading and validation, shareable ESLint 10 flat configs, TypeScript bases, and a minimal test runner
-- Turborepo + pnpm monorepo, tsup bundling, full type safety, built for both small projects and large monorepos
-
-### [DropGrid](https://github.com/shahadathhs/DropGrid)
-
-[Live Demo](https://playdropgrid.vercel.app/)
-
-- Offline-first Android falling-block puzzle game built in Godot, with five game modes, persistent local statistics, and configurable controls
-- Optional account-based score synchronization and global leaderboards served by a FastAPI backend
-- Next.js website alongside the game; automated testing and APK build workflows with Docker and CI/CD
-
-### [Algomind](https://github.com/shahadathhs/Algomind)
-
-[Live Demo](https://playalgomind.vercel.app/)
-
-- Offline-first Android logic puzzle in Godot where players program an automaton with instruction tiles, loops, and conditions
-- Deterministic simulator with a shortest-solution solver
-- NestJS/Prisma API, Next.js level-authoring dashboard, and public site in one monorepo, so new levels ship as data without an app update
-
-### [adda](https://github.com/shahadathhs/adda)
-
-- Full-stack monorepo, FastAPI backend, React 19 + TypeScript frontend, mediamtx streaming server, single Docker Compose deploy
-- Live streaming pipeline: RTMP ingest → HLS playback with per-community stream keys, publish-auth webhooks, and auto-recordings
-- Real-time layer, WebSocket gateway with typed protocol, Redis pub/sub fan-out for multi-instance scaling, and presence tracking
-- Complete auth suite: JWT, Google OAuth, passwordless OTP login (Redis-backed), 2FA, and RBAC roles
-
-### [voice-to-text](https://github.com/shahadathhs/voice-to-text)
-
-- AI transcription service built on OpenAI Whisper, usable as a CLI tool or a FastAPI REST server
-- Speaker diarization (SpeechBrain embeddings) labels who spoke what; non-English audio translates to English
-- Fully local, audio never leaves the machine; pluggable Whisper backends (OpenAI or Hugging Face)
-- One-command Docker deployment, Pydantic v2 validation, Ruff/MyPy/Bandit quality gates with CI
-
----
-
-## 📬 Contact
 
 <div align="center">
 
-**Let's build something scalable together.**
+## 📊 Stats & Activity
 
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shahadathhossensajib732@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shahadathhs/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shahadathhs)
-[![Twitter (X)](<https://img.shields.io/badge/Twitter%20(X)-000000?style=for-the-badge&logo=x&logoColor=white>)](https://x.com/shahadathhs)
-[![Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@shahadathhs)
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/shahadathhs/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://shahadathhs.vercel.app)
+[![LeetCode Stats](https://leetcard.jacoblin.cool/shahadathhs?theme=dark&font=Baloo%202&ext=contest)](https://leetcode.com/u/shahadathhs/)
+
+![Languages Used](https://github.com/shahadathhs/github-stats/blob/main/generated/languages.svg#gh-dark-mode-only)
+
+![GitHub Overview](https://github.com/shahadathhs/github-stats/blob/main/generated/overview.svg#gh-dark-mode-only)
 
 </div>
 
 ---
 
-## 📊 GitHub Stats
+<p align="center">
+  <a href="mailto:shahadathhossensajib732@gmail.com">
+    <img src="https://img.shields.io/badge/Contact%20Me-shahadathhossensajib732%40gmail.com-blue?style=for-the-badge&logo=gmail" />
+  </a>
+</p>
+
+---
 
 <div align="center">
 
-![GitHub Overview](https://github.com/shahadathhs/github-stats/blob/main/generated/overview.svg#gh-dark-mode-only)
-
-![Languages Used](https://github.com/shahadathhs/github-stats/blob/main/generated/languages.svg#gh-dark-mode-only)
+<sub>
+  <a href="https://shahadathhs.vercel.app"><img src="https://img.shields.io/badge/-Vercel-000000?style=flat&logo=vercel&logoColor=white" height="18"></a>
+  <a href="https://shahadathhs.pages.dev"><img src="https://img.shields.io/badge/-Cloudflare-F38020?style=flat&logo=cloudflare&logoColor=white" height="18"></a>
+</sub>
 
 </div>
