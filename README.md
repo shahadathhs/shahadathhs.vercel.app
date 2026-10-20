@@ -41,23 +41,23 @@ _TypeScript-first for type-safe backends; Python for AI, automation, and FastAPI
 
 `TypeScript` `JavaScript (ES6+)` `Python`
 
-### Web Development
+### Frontend
 
-_React and Next.js frontends; Node.js/NestJS for real-time and modular services; FastAPI for ML and async workloads._
+_React and Next.js interfaces built against the APIs I design, from dashboards to full product sites._
 
-`React` `Next.js` `Node.js` `NestJS` `Express.js` `FastAPI`
+`React` `Next.js`
 
-### Databases
+### Backend
 
-_Polyglot persistence, relational, document, and in-memory stores chosen per workload._
+_Node.js/NestJS for real-time and modular services; FastAPI for ML and async workloads._
 
-`PostgreSQL` `MongoDB` `Redis`
+`Node.js` `NestJS` `FastAPI` `Express.js`
 
-### ORM / ODM
+### Data Layer
 
-_Typed data layers with Prisma and Drizzle; Mongoose for document models._
+_Polyglot persistence, relational, document, and in-memory stores chosen per workload, with typed access through Prisma and Drizzle._
 
-`Prisma` `Mongoose` `Drizzle`
+`PostgreSQL` `MongoDB` `Redis` `Prisma` `Drizzle` `Mongoose`
 
 ### Cloud & DevOps
 

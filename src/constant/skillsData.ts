@@ -2,7 +2,7 @@ import {
   Code2,
   Server,
   Database,
-  Layers,
+  LayoutDashboard,
   Cloud,
   Radio,
   BrainCircuit,
@@ -25,32 +25,32 @@ export const skills: Skill[] = [
     icon: Code2,
   },
   {
-    title: 'Web Development',
+    title: 'Frontend',
     summary:
-      'React and Next.js frontends; Node.js/NestJS for real-time and modular services; FastAPI for ML and async workloads.',
-    description: [
-      'React',
-      'Next.js',
-      'Node.js',
-      'NestJS',
-      'Express.js',
-      'FastAPI',
-    ],
+      'React and Next.js interfaces built against the APIs I design, from dashboards to full product sites.',
+    description: ['React', 'Next.js'],
+    icon: LayoutDashboard,
+  },
+  {
+    title: 'Backend',
+    summary:
+      'Node.js/NestJS for real-time and modular services; FastAPI for ML and async workloads.',
+    description: ['Node.js', 'NestJS', 'FastAPI', 'Express.js'],
     icon: Server,
   },
   {
-    title: 'Databases',
+    title: 'Data Layer',
     summary:
-      'Polyglot persistence, relational, document, and in-memory stores chosen per workload.',
-    description: ['PostgreSQL', 'MongoDB', 'Redis'],
+      'Polyglot persistence, relational, document, and in-memory stores chosen per workload, with typed access through Prisma and Drizzle.',
+    description: [
+      'PostgreSQL',
+      'MongoDB',
+      'Redis',
+      'Prisma',
+      'Drizzle',
+      'Mongoose',
+    ],
     icon: Database,
-  },
-  {
-    title: 'ORM / ODM',
-    summary:
-      'Typed data layers with Prisma and Drizzle; Mongoose for document models.',
-    description: ['Prisma', 'Mongoose', 'Drizzle'],
-    icon: Layers,
   },
   {
     title: 'Cloud & DevOps',
