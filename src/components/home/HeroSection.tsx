@@ -41,7 +41,7 @@ export default function HeroSection() {
           </p>
           <p className="text-neutral-600 dark:text-neutral-400">
             Welcome to <span className="text-primary font-bold">SajibOS</span>:
-            backend engineering environment
+            full stack engineering environment
           </p>
         </motion.div>
 

@@ -11,7 +11,7 @@ export type AboutHighlightCard = {
 
 /** Compact about paragraphs, shown stacked under the header. */
 export const aboutParagraphs: string[] = [
-  'I’m a backend engineer who builds distributed systems and AI-powered services. Coming from full-stack work, I design APIs around what the frontend actually needs: pagination, loading states, and error handling you can build on.',
+  'I’m a full stack engineer with a backend focus. I build distributed systems and AI-powered services, and I ship the frontends on top of them, so I design APIs around what the UI actually needs: pagination, loading states, and error handling you can build on.',
   'If it has an endpoint, I wrote it, documented it, and probably got paged for it once.',
   'I deploy what I build: Docker on AWS, CI/CD pipelines, Linux boxes behind Nginx or Caddy. I optimize for boring, observable systems that are easy to debug at 2am. Production is the deliverable.',
 ];

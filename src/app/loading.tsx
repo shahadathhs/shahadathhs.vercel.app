@@ -28,7 +28,7 @@ export default function Loading() {
               'Loading my skills and experiences...',
               'Preparing my portfolio content...',
               'Just a moment while everything loads...',
-              'Gathering my backend expertise...',
+              'Gathering my full stack expertise...',
             ][Math.floor(Math.random() * 5)]
           }
         </p>

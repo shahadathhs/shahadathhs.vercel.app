@@ -4,6 +4,9 @@ import { parseMediumRss } from '@/services/medium-service';
 
 export const revalidate = 3600;
 
+/** Latest posts returned to the blog section. */
+const POSTS_LIMIT = 5;
+
 export async function GET(request: Request) {
   const username =
     new URL(request.url).searchParams.get('username') ?? 'shahadathhs';
@@ -30,7 +33,7 @@ export async function GET(request: Request) {
     }
 
     const xml = await rssRes.text();
-    const posts = parseMediumRss(xml);
+    const posts = parseMediumRss(xml).slice(0, POSTS_LIMIT);
 
     return NextResponse.json({ posts });
   } catch {

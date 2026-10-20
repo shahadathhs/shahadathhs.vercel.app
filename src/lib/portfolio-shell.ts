@@ -283,8 +283,8 @@ export const neofetchStats = (): { key: string; value: string }[] => [
   { key: 'Shell', value: 'zsh' },
   { key: 'Role', value: heroData.role },
   { key: 'Location', value: heroData.location },
-  { key: 'Focus', value: 'Microservices & AI backends' },
-  { key: 'Stack', value: 'Node.js · NestJS · TypeScript · Python' },
+  { key: 'Focus', value: 'Full stack apps, microservices & AI' },
+  { key: 'Stack', value: 'React · Next.js · NestJS · TypeScript · Python' },
   { key: 'Uptime', value: `${heroData.quickStats[0]?.value ?? '2+'} years` },
   { key: 'GitHub', value: heroData.githubLink },
 ];

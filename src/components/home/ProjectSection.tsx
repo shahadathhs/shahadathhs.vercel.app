@@ -8,7 +8,11 @@ import {
   fetchMultipleRepos,
   GithubRepo,
 } from '@/services/github-service';
-import { PINNED_REPOS, projectHighlights } from '@/constant/projectConfig';
+import {
+  PINNED_REPOS,
+  projectDemos,
+  projectHighlights,
+} from '@/constant/projectConfig';
 
 export default function ProjectSection() {
   const [repos, setRepos] = useState<GithubRepo[]>([]);
@@ -119,6 +123,7 @@ export default function ProjectSection() {
             {PINNED_REPOS.map((name, idx) => {
               const repo = repoByName.get(name);
               const highlights = projectHighlights[name] ?? [];
+              const demo = projectDemos[name];
               const url =
                 repo?.html_url ?? `https://github.com/shahadathhs/${name}`;
 
@@ -167,6 +172,17 @@ export default function ProjectSection() {
                             <GitFork className="h-3.5 w-3.5" />
                             {repo?.forks_count ?? 0}
                           </span>
+                          {demo && (
+                            <a
+                              href={demo}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="inline-flex items-center gap-1 text-[10px] font-bold uppercase tracking-widest text-primary transition-opacity hover:opacity-80"
+                            >
+                              Live Demo
+                              <ArrowUpRight className="h-3 w-3" />
+                            </a>
+                          )}
                           <a
                             href={url}
                             target="_blank"

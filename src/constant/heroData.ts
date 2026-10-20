@@ -16,21 +16,22 @@ export type QuickStat = {
 export const heroData = {
   name: 'Shahadath Hossen Sajib',
   shortName: 'Sajib',
-  role: 'Backend Engineer',
+  role: 'Full Stack Engineer',
   location: 'Dhaka, Bangladesh',
-  availability: 'Open to backend-focused opportunities',
+  availability: 'Open to full stack and backend-focused opportunities',
 
   greeting: "Hey, I'm",
 
   typewriterWords: [
-    'Backend Engineer',
+    'Full Stack Engineer',
+    'Backend-Focused Builder',
     'Node.js & NestJS Specialist',
     'TypeScript & Python Developer',
     'AI-Integrated Systems Builder',
   ],
 
   tagline:
-    'Backend engineer building microservices and AI powered systems with Node.js, TypeScript, and Python. Writes about them after midnight. You are welcome to deploy.',
+    'Full stack engineer, backend-focused, building microservices and AI powered systems with Node.js, TypeScript, and Python. Writes about them after midnight. You are welcome to deploy.',
 
   resumeLink:
     'https://drive.google.com/file/d/1dtZCEgZyof-qrUreeVpXDlOovosegpuf/view',
@@ -43,7 +44,7 @@ export const heroData = {
   ] as QuickStat[],
 
   codeSnippet: {
-    className: 'BackendEngineer',
+    className: 'FullStackEngineer',
     lines: [
       {
         indent: 1,
@@ -59,7 +60,7 @@ export const heroData = {
         segments: [
           { text: 'role', variant: 'key' },
           { text: ' = [', variant: 'punct' },
-          { text: "'Backend Engineer'", variant: 'string' },
+          { text: "'Full Stack Engineer'", variant: 'string' },
           { text: ']', variant: 'punct' },
         ],
       },
@@ -68,7 +69,10 @@ export const heroData = {
         segments: [
           { text: 'stack', variant: 'key' },
           { text: ' = [', variant: 'punct' },
-          { text: "'Node.js', 'NestJS', 'FastAPI'", variant: 'string' },
+          {
+            text: "'React', 'Next.js', 'NestJS', 'FastAPI'",
+            variant: 'string',
+          },
           { text: ']', variant: 'punct' },
         ],
       },

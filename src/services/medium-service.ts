@@ -129,7 +129,7 @@ export const parseMediumRss = (xml: string): MediumPost[] => {
 export const fetchMediumPosts = async (
   username: string = 'shahadathhs',
 ): Promise<MediumPost[]> => {
-  const cacheKey = `medium_feed_${username}`;
+  const cacheKey = `medium_feed_v2_${username}`;
   const cachedData = getCache<MediumPost[]>(cacheKey);
   if (cachedData) return cachedData;
 

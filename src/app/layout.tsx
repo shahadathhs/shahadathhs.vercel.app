@@ -21,14 +21,14 @@ const ibmPlexMono = IBM_Plex_Mono({
 const siteUrl = 'https://shahadathhs.vercel.app';
 const name = 'Shahadath Hossen Sajib';
 const shortDescription =
-  'Backend Engineer specializing in scalable APIs, distributed systems, and AI-powered backend services using Node.js, NestJS, TypeScript, and Python.';
+  'Full Stack Engineer (backend-focused) building scalable APIs, real-time systems, and AI-powered applications with TypeScript, React, Next.js, Node.js, NestJS, and Python.';
 const longDescription =
-  'Backend Engineer building scalable APIs, distributed systems, and AI-powered backend services with Node.js, NestJS, TypeScript, and Python. Experienced in designing high-performance RESTful APIs, real-time applications, and event-driven architectures, with hands-on expertise in PostgreSQL, MongoDB, Redis, Docker, AWS, and CI/CD for production-grade deployments.';
+  'Full Stack Engineer, backend-focused, building production web applications, scalable APIs, real-time systems, and AI-powered features with TypeScript, React, Next.js, Node.js, NestJS, Python, and FastAPI. Hands-on with PostgreSQL, MongoDB, Redis, RAG and tool calling, Docker, AWS, and Linux-based deployments.';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: `${name} | Backend Engineer (Node.js, NestJS, Python)`,
+    default: `${name} | Full Stack Engineer (Node.js, NestJS, Python)`,
     template: `%s | ${name}`,
   },
   description: longDescription,
@@ -40,8 +40,13 @@ export const metadata: Metadata = {
     'Shahadath Hossen Sajib',
     'Shahadath H. Sajib',
     'Sajib',
+    'Full Stack Engineer',
+    'Full Stack Developer',
     'Backend Engineer',
     'Backend Developer',
+    'React',
+    'Next.js',
+    'RAG',
     'Node.js',
     'NestJS',
     'FastAPI',
@@ -78,10 +83,10 @@ export const metadata: Metadata = {
     'DevOps',
     'Dhaka',
     'Bangladesh',
-    'Backend Portfolio',
+    'Full Stack Portfolio',
   ],
   category: 'technology',
-  classification: 'Backend Engineering Portfolio',
+  classification: 'Full Stack Engineering Portfolio',
   referrer: 'origin-when-cross-origin',
   alternates: {
     canonical: '/',
@@ -93,8 +98,8 @@ export const metadata: Metadata = {
     type: 'profile',
     locale: 'en_US',
     url: siteUrl,
-    siteName: `${name} | Backend Engineer`,
-    title: `${name} | Backend Engineer`,
+    siteName: `${name} | Full Stack Engineer`,
+    title: `${name} | Full Stack Engineer`,
     description: shortDescription,
     firstName: 'Shahadath',
     lastName: 'Hossen Sajib',
@@ -104,7 +109,7 @@ export const metadata: Metadata = {
         url: '/opengraph-image',
         width: 1200,
         height: 630,
-        alt: `${name} | Backend Engineer Portfolio`,
+        alt: `${name} | Full Stack Engineer Portfolio`,
         type: 'image/png',
       },
     ],
@@ -113,7 +118,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     site: '@shahadathhs',
     creator: '@shahadathhs',
-    title: `${name} | Backend Engineer`,
+    title: `${name} | Full Stack Engineer`,
     description: shortDescription,
     images: ['/opengraph-image'],
   },
@@ -156,7 +161,7 @@ export const metadata: Metadata = {
       name,
       givenName: 'Shahadath',
       familyName: 'Hossen Sajib',
-      jobTitle: 'Backend Engineer',
+      jobTitle: 'Full Stack Engineer',
       description: shortDescription,
       url: siteUrl,
       image: `${siteUrl}/logo.png`,
@@ -225,7 +230,7 @@ export const metadata: Metadata = {
     'website-schema': JSON.stringify({
       '@context': 'https://schema.org',
       '@type': 'WebSite',
-      name: `${name} | Backend Engineer Portfolio`,
+      name: `${name} | Full Stack Engineer Portfolio`,
       url: siteUrl,
       author: { '@type': 'Person', name },
       inLanguage: 'en-US',

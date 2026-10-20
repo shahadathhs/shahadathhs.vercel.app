@@ -11,7 +11,11 @@ import { fileURLToPath } from 'node:url';
 import { heroData } from '../src/constant/heroData';
 import { skills } from '../src/constant/skillsData';
 import { experienceData } from '../src/constant/experienceData';
-import { repoCategories } from '../src/constant/projectConfig';
+import {
+  PINNED_REPOS,
+  projectDemos,
+  projectHighlights,
+} from '../src/constant/projectConfig';
 import { socialLinks } from '../src/constant/socialLinks';
 import { contactEmail } from '../src/constant/contactInfo';
 import { aboutMeBio } from '../src/constant/aboutMe';
@@ -118,12 +122,11 @@ push(
   `Pinned open-source work — [explore all on GitHub](https://github.com/${GH}?tab=repositories).`,
   '',
 );
-for (const [category, repos] of Object.entries(repoCategories)) {
-  push(`### ${category}`, '');
-  push(
-    repos.map((r) => `[\`${r}\`](https://github.com/${GH}/${r})`).join(' · '),
-    '',
-  );
+for (const repo of PINNED_REPOS) {
+  push(`### [${repo}](https://github.com/${GH}/${repo})`, '');
+  if (projectDemos[repo]) push(`[Live Demo](${projectDemos[repo]})`, '');
+  for (const h of projectHighlights[repo] ?? []) push(`- ${h}`);
+  push('');
 }
 push('---', '');
 

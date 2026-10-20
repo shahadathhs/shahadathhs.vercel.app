@@ -25,10 +25,17 @@ export const skills: Skill[] = [
     icon: Code2,
   },
   {
-    title: 'Backend',
+    title: 'Web Development',
     summary:
-      'Node.js/NestJS for real-time and modular services; FastAPI for ML and async workloads.',
-    description: ['Node.js', 'NestJS', 'FastAPI', 'Express.js'],
+      'React and Next.js frontends; Node.js/NestJS for real-time and modular services; FastAPI for ML and async workloads.',
+    description: [
+      'React',
+      'Next.js',
+      'Node.js',
+      'NestJS',
+      'Express.js',
+      'FastAPI',
+    ],
     icon: Server,
   },
   {

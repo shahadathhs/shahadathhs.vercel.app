@@ -19,12 +19,13 @@ const bgDataUrl = (() => {
 // Highlight reel of the actual stack (see src/constant/skillsData.ts).
 const techChips = [
   'TypeScript',
+  'React',
+  'Next.js',
   'Node.js',
   'NestJS',
   'Python',
   'FastAPI',
   'PostgreSQL',
-  'MongoDB',
   'Redis',
   'Docker',
   'AWS',
@@ -234,7 +235,7 @@ export default function OpengraphImage() {
               lineHeight: 1.4,
             }}
           >
-            Scalable APIs · Distributed Systems · AI-Powered Backend Services
+            Full Stack Applications · Scalable APIs · AI-Powered Systems
           </div>
         </div>
 
