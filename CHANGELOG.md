@@ -1,3 +1,9 @@
+# [1.28.0](https://github.com/shahadathhs/shahadathhs.vercel.app/compare/v1.27.0...v1.28.0) (2026-10-20)
+
+### Features
+
+- **portfolio:** reposition as full stack engineer, add new projects, banner, 5 blogs ([7643a8f](https://github.com/shahadathhs/shahadathhs.vercel.app/commit/7643a8f0bafd80e0303c173c599375855baf3be8))
+
 # [1.27.0](https://github.com/shahadathhs/shahadathhs.vercel.app/compare/v1.26.1...v1.27.0) (2026-09-06)
 
 ### Features
