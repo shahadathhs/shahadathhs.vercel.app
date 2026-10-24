@@ -1,3 +1,9 @@
+# [1.29.0](https://github.com/shahadathhs/shahadathhs.vercel.app/compare/v1.28.0...v1.29.0) (2026-10-24)
+
+### Features
+
+- **projects:** paginate 3 per page, add GuliBatto, rename voice-studio, reorder ([4aa8189](https://github.com/shahadathhs/shahadathhs.vercel.app/commit/4aa8189371832c6dd37b7df1a5b526713c8a05d9))
+
 # [1.28.0](https://github.com/shahadathhs/shahadathhs.vercel.app/compare/v1.27.0...v1.28.0) (2026-10-20)
 
 ### Features
