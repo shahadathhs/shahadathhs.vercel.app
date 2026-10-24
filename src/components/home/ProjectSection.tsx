@@ -2,7 +2,13 @@
 
 import { useEffect, useMemo, useState } from 'react';
 import { motion } from 'motion/react';
-import { ArrowUpRight, GitFork, Star } from 'lucide-react';
+import {
+  ArrowUpRight,
+  ChevronLeft,
+  ChevronRight,
+  GitFork,
+  Star,
+} from 'lucide-react';
 import {
   fetchGithubRepos,
   fetchMultipleRepos,
@@ -14,13 +20,19 @@ import {
   projectHighlights,
 } from '@/constant/projectConfig';
 
+/** Projects shown per page. */
+const PAGE_SIZE = 3;
+
 export default function ProjectSection() {
   const [repos, setRepos] = useState<GithubRepo[]>([]);
   const [loading, setLoading] = useState(true);
   /** True only when every pinned repo failed and we show placeholder data (no API metadata). */
   const [usedSyntheticFallback, setUsedSyntheticFallback] = useState(false);
 
+  const [page, setPage] = useState(0);
+
   const total = PINNED_REPOS.length;
+  const pageCount = Math.ceil(total / PAGE_SIZE);
 
   useEffect(() => {
     const loadRepos = async () => {
@@ -65,6 +77,22 @@ export default function ProjectSection() {
     () => new Map(repos.map((r) => [r.name, r])),
     [repos],
   );
+
+  const goToPage = (next: number) => {
+    setPage(next);
+    // Long pages can leave the viewport below the heading; bring it back.
+    const top = document
+      .getElementById('projects')
+      ?.getBoundingClientRect().top;
+    if (top !== undefined && top < 0) {
+      document.getElementById('projects')?.scrollIntoView({ block: 'start' });
+    }
+  };
+  const prev = () => goToPage((page - 1 + pageCount) % pageCount);
+  const next = () => goToPage((page + 1) % pageCount);
+
+  const pageStart = page * PAGE_SIZE;
+  const visibleRepos = PINNED_REPOS.slice(pageStart, pageStart + PAGE_SIZE);
 
   return (
     <div
@@ -118,9 +146,10 @@ export default function ProjectSection() {
             </p>
           )}
 
-          {/* Projects — all pinned repos, original per-project design */}
-          <div className="flex flex-col gap-12">
-            {PINNED_REPOS.map((name, idx) => {
+          {/* Projects — one page of pinned repos at a time */}
+          <div key={page} className="flex flex-col gap-12">
+            {visibleRepos.map((name, i) => {
+              const idx = pageStart + i;
               const repo = repoByName.get(name);
               const highlights = projectHighlights[name] ?? [];
               const demo = projectDemos[name];
@@ -133,7 +162,7 @@ export default function ProjectSection() {
                   initial={{ opacity: 0, y: 16 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true, margin: '-60px' }}
-                  transition={{ duration: 0.4, delay: (idx % 3) * 0.08 }}
+                  transition={{ duration: 0.4, delay: i * 0.08 }}
                   className="group flex flex-col gap-6"
                 >
                   {/* Project header — title + meta, like the role header */}
@@ -213,6 +242,52 @@ export default function ProjectSection() {
               );
             })}
           </div>
+
+          {/* Page controls */}
+          {pageCount > 1 && (
+            <div className="mt-10 flex items-center justify-between border-t border-neutral-200/80 pt-4 dark:border-neutral-800/80">
+              <div className="flex items-center gap-2">
+                {Array.from({ length: pageCount }, (_, i) => (
+                  <button
+                    key={i}
+                    type="button"
+                    onClick={() => goToPage(i)}
+                    aria-label={`Show page ${i + 1}`}
+                    className={`h-1.5 cursor-pointer rounded-full transition-all duration-300 ${
+                      i === page
+                        ? 'w-5 bg-primary'
+                        : 'w-1.5 bg-neutral-300 hover:bg-neutral-400 dark:bg-neutral-700 dark:hover:bg-neutral-600'
+                    }`}
+                  />
+                ))}
+              </div>
+
+              <div className="flex items-center gap-4">
+                <span className="font-mono text-[11px] font-bold tabular-nums tracking-widest text-neutral-500 dark:text-neutral-400">
+                  {String(page + 1).padStart(2, '0')} /{' '}
+                  {String(pageCount).padStart(2, '0')}
+                </span>
+                <div className="flex gap-2">
+                  <button
+                    type="button"
+                    onClick={prev}
+                    aria-label="Previous page"
+                    className="inline-flex h-8 w-8 cursor-pointer items-center justify-center rounded-md border border-neutral-200 text-neutral-600 transition-all hover:border-primary/50 hover:text-primary dark:border-neutral-800 dark:text-neutral-300"
+                  >
+                    <ChevronLeft className="h-4 w-4" />
+                  </button>
+                  <button
+                    type="button"
+                    onClick={next}
+                    aria-label="Next page"
+                    className="inline-flex h-8 w-8 cursor-pointer items-center justify-center rounded-md border border-neutral-200 text-neutral-600 transition-all hover:border-primary/50 hover:text-primary dark:border-neutral-800 dark:text-neutral-300"
+                  >
+                    <ChevronRight className="h-4 w-4" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          )}
         </div>
       </section>
     </div>
